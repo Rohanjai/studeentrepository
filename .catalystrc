@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "2586000000002058",
+      "name": "studentrepository",
+      "domain": {
+        "id": "50010605060",
+        "name": "studentrepository-60016850298.development"
+      },
+      "env": [
+        {
+          "idx": 1,
+          "id": "60016850298",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}
