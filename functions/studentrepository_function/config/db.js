@@ -1,9 +1,9 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
-const config = require('config');
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb+srv://LuciFer:Pentagon5@authcluster.fg9k4ba.mongodb.net/?retryWrites=true&w=majority", {
+    await mongoose.connect(process.env.MONGO_CONNECTION_STRING, {
       useNewUrlParser: true,
       useCreateIndex: true,
       useFindAndModify: false,
